@@ -38,6 +38,8 @@ services:
       - DATABASE_HOST=db
       - DATABASE_USERNAME=${MYSQL_USER:-demo_app_user}
       - DATABASE_PASSWORD=${MYSQL_PASSWORD:-password}
+      - DATABASE_PORT=3306
+      - MYSQL_DATABASE=${MYSQL_DATABASE:-demo_app_development}
 
 volumes:
   db_data:
