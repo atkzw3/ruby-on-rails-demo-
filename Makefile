@@ -20,9 +20,9 @@ help:
 build:
 	docker-compose build
 
-# コンテナを起動（バックグラウンド）
+# コンテナを起動
 up:
-	docker-compose up -d
+	docker-compose up
 
 # コンテナを停止・削除
 down:
